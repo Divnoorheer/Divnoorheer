@@ -3,27 +3,60 @@
   PALETTE: bg #00060e | sky #54c1e6 | teal #39c4b6 | yellow #fee801 | olive #9a9f17
 -->
 
-<div align="center" style="background: radial-gradient(circle at top, rgba(84,193,230,0.18), transparent 38%), #00060e; border: 1px solid rgba(84,193,230,0.35); border-radius: 22px; box-shadow: 0 0 0 1px rgba(57,196,182,0.16), 0 0 28px rgba(84,193,230,0.12); padding: 20px 18px 10px; margin: auto; max-width: 1100px;">
+<div align="center">
+  <div style="
+    width: min(100%, 980px);
+    padding: 22px 18px 16px;
+    border-radius: 18px;
+    border: 1px solid rgba(84,193,230,0.4);
+    background:
+      linear-gradient(135deg, rgba(84,193,230,0.12), rgba(57,196,182,0.08), rgba(0,0,0,0)),
+      radial-gradient(circle at 15% 20%, rgba(84,193,230,0.28), transparent 28%),
+      radial-gradient(circle at 80% 30%, rgba(57,196,182,0.25), transparent 24%),
+      #00060e;
+    box-shadow:
+      0 0 0 1px rgba(84,193,230,0.14),
+      0 0 30px rgba(84,193,230,0.08),
+      inset 0 0 24px rgba(84,193,230,0.04);
+    position: relative;
+    overflow: hidden;
+  ">
+    <div style="
+      position:absolute; inset:0;
+      background:
+        linear-gradient(rgba(84,193,230,0.18), rgba(84,193,230,0.18)),
+        repeating-linear-gradient(
+          90deg,
+          transparent 0,
+          transparent 34px,
+          rgba(84,193,230,0.08) 35px,
+          rgba(84,193,230,0.08) 36px
+        );
+      mask-image: linear-gradient(to bottom, rgba(0,0,0,0.9), rgba(0,0,0,0.2));
+      opacity: 0.9;
+    "></div>
 
-  <div style="display:flex; align-items:center; justify-content:center; gap:10px; margin-bottom:10px;">
-    <span style="width:10px;height:10px;border-radius:50%;background:#39c4b6;box-shadow:0 0 14px #39c4b6;"></span>
-    <span style="width:10px;height:10px;border-radius:50%;background:#fee801;box-shadow:0 0 14px #fee801;"></span>
-    <span style="width:10px;height:10px;border-radius:50%;background:#54c1e6;box-shadow:0 0 14px #54c1e6;"></span>
+    <div style="position:relative; z-index:1;">
+      <p style="
+        margin: 0;
+        font-size: 42px;
+        font-weight: 800;
+        letter-spacing: 0.12em;
+        color: #fee801;
+        text-shadow: 0 0 18px rgba(254,232,1,0.18);
+        font-family: 'Segoe UI', sans-serif;
+      ">DIVNOOR SINGH</p>
+
+      <p style="
+        margin: 8px 0 0;
+        font-size: 14px;
+        letter-spacing: 0.25em;
+        color: #54c1e6;
+        font-family: 'Fira Code', monospace;
+        text-transform: uppercase;
+      ">// Computer Science • University of Waterloo</p>
+    </div>
   </div>
-
-<img src="https://capsule-render.vercel.app/api?type=slice&height=220&color=0:030914,26:081d2d,62:54c1e6,100:39c4b6&text=DIVNOOR%20SINGH&fontColor=fee801&fontSize=58&fontAlign=50&fontAlignY=42&desc=//%20COMPUTER%20SCIENCE%20%C2%B7%20UNIVERSITY%20OF%20WATERLOO&descSize=16&descAlignY=64&descAlign=50&animation=fadeIn" alt="Divnoor Singh banner" width="100%" />
-
-  <a href="https://divnoorsingh.vercel.app">
-    <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&pause=1200&color=54C1E6&background=00060E&center=true&vCenter=true&width=640&height=52&lines=%3E+booting+portfolio.exe...;%3E+CS+%402B+%7C+University+of+Waterloo;%3E+TypeScript+%C2%B7+Python+%C2%B7+C%2B%2B+%C2%B7+React+%C2%B7+Azure;%3E+AI+governance+%2B+computer+vision;%3E+status%3A+open+to+build" alt="typing status"/>
-  </a>
-
-  <div style="height: 2px; width: 100%; margin: 18px 0 14px; background: linear-gradient(90deg, transparent, #54c1e6, #39c4b6, #fee801, transparent); opacity: 0.9;"></div>
-
-<div align="center" style="margin-top:6px;">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=DivnoorHeer&show_icons=true&hide_border=true&bg_color=00060e&title_color=54c1e6&icon_color=fee801&text_color=c9d1d9&ring_color=39c4b6&count_private=true" alt="GitHub stats"/>
-  <img height="180" src="https://streak-stats.demolab.com?user=DivnoorHeer&hide_border=true&background=00060E&ring=39C4B6&fire=FEE801&currStreakNum=54C1E6&currStreakLabel=54C1E6&sideNums=C9D1D9&sideLabels=9A9F17&dates=6B7280" alt="Streak"/>
-</div>
-
 </div>
 
 ---
@@ -70,12 +103,8 @@
 ## `> stats --live`
 
 <div align="center" style="margin-top:6px;">
-  <img height="180" src="https://github-readme-stats.vercel.app/api?username=DivnoorHeer&show_icons=true&hide_border=true&bg_color=00060e&title_color=54c1e6&icon_color=fee801&text_color=c9d1d9&ring_color=39c4b6" alt="GitHub stats"/>
-  <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DivnoorHeer&layout=compact&hide_border=true&bg_color=00060e&title_color=54c1e6&text_color=c9d1d9" alt="Top languages"/>
-</div>
-
-<div align="center" style="margin-top:12px;">
-  <img src="https://streak-stats.demolab.com?user=DivnoorHeer&hide_border=true&background=00060E&ring=39C4B6&fire=FEE801&currStreakNum=54C1E6&currStreakLabel=54C1E6&sideNums=C9D1D9&sideLabels=9A9F17&dates=6B7280" alt="Streak"/>
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=DivnoorHeer&show_icons=true&hide_border=true&bg_color=00060e&title_color=54c1e6&icon_color=fee801&text_color=c9d1d9&ring_color=39c4b6&count_private=true" alt="GitHub stats"/>
+  <img height="180" src="https://streak-stats.demolab.com?user=DivnoorHeer&hide_border=true&background=00060E&ring=39C4B6&fire=FEE801&currStreakNum=54C1E6&currStreakLabel=54C1E6&sideNums=C9D1D9&sideLabels=9A9F17&dates=6B7280" alt="Streak"/>
 </div>
 
 ---

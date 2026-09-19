@@ -1,0 +1,52 @@
+# ============================================================
+#  Contribution snake generator
+#  Renders the contribution graph as an animated "snake" and
+#  publishes the SVGs to the `output` branch of this repo. The
+#  README then embeds those files, so the animation is served
+#  from your own repo — no third-party runtime, never rate-limited.
+#
+#  This file must live at  .github/workflows/snake.yml  in the
+#  root of your  Divnoorheer  profile repo (not inside assets/).
+#  After the first run, enable Pages/branch output isn't needed;
+#  raw.githubusercontent links resolve straight from the branch.
+#
+#  Palette matches src/styles/cyber.css:
+#    empty  #0b0d12   dots ramp yellow -> cyan   snake #ff003c
+# ============================================================
+name: contribution-snake
+
+on:
+  schedule:
+    # Refresh a few times a day so the graph stays current.
+    - cron: "0 */8 * * *"
+  # Allow manual runs from the Actions tab.
+  workflow_dispatch:
+  # Regenerate on every push to main.
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Generate snake SVGs
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=ff003c&color_dots=0b0d12,16d9c4,00f0ff,fcee0a,fcee0a
+            dist/snake-light.svg?color_snake=ff003c&color_dots=1a1e27,16d9c4,00f0ff,fcee0a,fcee0a
+
+      - name: Publish to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

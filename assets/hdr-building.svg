@@ -1,0 +1,39 @@
+<svg width="900" height="46" viewBox="0 0 900 46" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Currently Building">
+  <title>Currently Building</title>
+  <defs>
+    <style>
+      .disp  { font-family: 'Rajdhani','Oswald','Arial Narrow',system-ui,sans-serif; font-weight:700; letter-spacing:2.5px; }
+      .mono  { font-family: 'Share Tech Mono',ui-monospace,monospace; letter-spacing:2px; }
+    </style>
+  </defs>
+
+  <!-- notched tab body: chamfered top-left, straight elsewhere -->
+  <path d="M20 6 H892 V40 H8 V18 Z" fill="#0b0d12"/>
+  <path d="M20 6 H892 V40 H8 V18 Z" fill="#00f0ff" opacity="0.04"/>
+  <!-- accent left edge -->
+  <path d="M20 6 L8 18 V40" fill="none" stroke="#00f0ff" stroke-width="2"/>
+  <rect x="8" y="6" width="4" height="34" fill="#00f0ff"/>
+
+  <!-- index chip -->
+  <rect x="26" y="15" width="34" height="16" fill="#00f0ff"/>
+  <text x="43" y="27" class="mono" font-size="11" fill="#06060a" text-anchor="middle">01</text>
+
+  <!-- title -->
+  <text x="72" y="29" class="disp" font-size="19" fill="#dfe4ec">CURRENTLY BUILDING</text>
+
+  <!-- trailing segment run -->
+  <rect x="720" y="18" width="8" height="10" fill="#00f0ff" opacity="1.00"/>
+    <rect x="733" y="18" width="8" height="10" fill="#00f0ff" opacity="0.92"/>
+    <rect x="746" y="18" width="8" height="10" fill="#00f0ff" opacity="0.84"/>
+    <rect x="759" y="18" width="8" height="10" fill="#00f0ff" opacity="0.76"/>
+    <rect x="772" y="18" width="8" height="10" fill="#00f0ff" opacity="0.68"/>
+    <rect x="785" y="18" width="8" height="10" fill="#00f0ff" opacity="0.60"/>
+    <rect x="798" y="18" width="8" height="10" fill="#262c38" opacity="0.50"/>
+    <rect x="811" y="18" width="8" height="10" fill="#262c38" opacity="0.50"/>
+    <rect x="824" y="18" width="8" height="10" fill="#262c38" opacity="0.50"/>
+    <rect x="837" y="18" width="8" height="10" fill="#262c38" opacity="0.50"/>
+    <rect x="850" y="18" width="8" height="10" fill="#262c38" opacity="0.50"/>
+    <rect x="863" y="18" width="8" height="10" fill="#262c38" opacity="0.50"/>
+    <rect x="876" y="18" width="8" height="10" fill="#262c38" opacity="0.50"/>
+    <rect x="889" y="18" width="8" height="10" fill="#262c38" opacity="0.50"/>
+</svg>

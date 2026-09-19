@@ -11,7 +11,7 @@
     <span style="width:10px;height:10px;border-radius:50%;background:#54c1e6;box-shadow:0 0 14px #54c1e6;"></span>
   </div>
 
-  <img src="https://capsule-render.vercel.app/api?type=slice&height=220&color=0:00060e,50:39c4b6,100:54c1e6&text=DIVNOOR%20SINGH&fontColor=00060e&fontSize=58&fontAlign=50&fontAlignY=42&desc=//%20COMPUTER%20SCIENCE%20%C2%B7%20UNIVERSITY%20OF%20WATERLOO&descSize=16&descAlignY=64&descAlign=50&animation=fadeIn" alt="Divnoor Singh banner" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=slice&height=220&color=0:030914,26:081d2d,62:54c1e6,100:39c4b6&text=DIVNOOR%20SINGH&fontColor=fee801&fontSize=58&fontAlign=50&fontAlignY=42&desc=//%20COMPUTER%20SCIENCE%20%C2%B7%20UNIVERSITY%20OF%20WATERLOO&descSize=16&descAlignY=64&descAlign=50&animation=fadeIn" alt="Divnoor Singh banner" width="100%" />
 
   <a href="https://divnoorsingh.vercel.app">
     <img src="https://readme-typing-svg.demolab.com?font=Orbitron&weight=700&size=20&pause=1200&color=54C1E6&background=00060E&center=true&vCenter=true&width=640&height=52&lines=%3E+booting+portfolio.exe...;%3E+CS+%402B+%7C+University+of+Waterloo;%3E+TypeScript+%C2%B7+Python+%C2%B7+C%2B%2B+%C2%B7+React+%C2%B7+Azure;%3E+AI+governance+%2B+computer+vision;%3E+status%3A+open+to+build" alt="typing status"/>
@@ -19,11 +19,10 @@
 
   <div style="height: 2px; width: 100%; margin: 18px 0 14px; background: linear-gradient(90deg, transparent, #54c1e6, #39c4b6, #fee801, transparent); opacity: 0.9;"></div>
 
-  <div align="center">
-    <a href="https://divnoorsingh.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-divnoorsingh.vercel.app-54c1e6?style=for-the-badge&labelColor=00060e&logo=vercel&logoColor=54c1e6" alt="Portfolio"/></a>
-    <a href="https://github.com/DivnoorHeer"><img src="https://img.shields.io/badge/GITHUB-DivnoorHeer-fee801?style=for-the-badge&labelColor=00060e&logo=github&logoColor=fee801" alt="GitHub"/></a>
-    <a href="https://www.linkedin.com/in/divnoor-singh2006"><img src="https://img.shields.io/badge/LINKEDIN-CONNECT-39c4b6?style=for-the-badge&labelColor=00060e&logo=linkedin&logoColor=39c4b6" alt="LinkedIn"/></a>
-  </div>
+<div align="center" style="margin-top:6px;">
+  <img height="180" src="https://github-readme-stats.vercel.app/api?username=DivnoorHeer&show_icons=true&hide_border=true&bg_color=00060e&title_color=54c1e6&icon_color=fee801&text_color=c9d1d9&ring_color=39c4b6&count_private=true" alt="GitHub stats"/>
+  <img height="180" src="https://streak-stats.demolab.com?user=DivnoorHeer&hide_border=true&background=00060E&ring=39C4B6&fire=FEE801&currStreakNum=54C1E6&currStreakLabel=54C1E6&sideNums=C9D1D9&sideLabels=9A9F17&dates=6B7280" alt="Streak"/>
+</div>
 
 </div>
 

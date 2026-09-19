@@ -39,9 +39,15 @@ jobs:
         id: snake
         with:
           github_user_name: ${{ github.repository_owner }}
+          # color_dots takes EXACTLY 5 comma-separated colors, ramping from
+          # 0 contributions (first) to the highest (last), and hex values MUST
+          # keep the leading '#'. This is a '|' block scalar, where '#' is a
+          # literal character (NOT a comment), so the colors pass through intact.
+          # The earlier version dropped the '#', so the action couldn't parse the
+          # palette and fell back to a near-black default — hence the black snake.
           outputs: |
-            dist/snake-dark.svg?palette=github-dark&color_snake=ff003c&color_dots=0b0d12,16d9c4,00f0ff,fcee0a,fcee0a
-            dist/snake-light.svg?color_snake=ff003c&color_dots=1a1e27,16d9c4,00f0ff,fcee0a,fcee0a
+            dist/snake-dark.svg?color_snake=#ff003c&color_dots=#0b0d12,#16d9c4,#00f0ff,#fcee0a,#fcee0a
+            dist/snake-light.svg?color_snake=#ff003c&color_dots=#eef1f6,#16d9c4,#00f0ff,#fcee0a,#fcee0a
 
       - name: Publish to output branch
         uses: crazy-max/ghaction-github-pages@v4

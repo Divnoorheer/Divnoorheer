@@ -16,7 +16,7 @@
 
   <!-- index chip -->
   <rect x="26" y="15" width="34" height="16" fill="#ff003c"/>
-  <text x="43" y="27" class="mono" font-size="11" fill="#06060a" text-anchor="middle">05</text>
+  <text x="43" y="27" class="mono" font-size="11" fill="#06060a" text-anchor="middle">06</text>
 
   <!-- title -->
   <text x="72" y="29" class="disp" font-size="19" fill="#dfe4ec">OPEN CHANNEL</text>

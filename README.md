@@ -158,16 +158,47 @@ and structured views of key market metrics.
 
 ## `> TELEMETRY  //  system readout`
 
+<!--
+  These badges are static shields.io endpoints. They render server-side
+  straight from GitHub's own data and effectively never break, unlike the
+  github-readme-stats cards (whose public instance is rate-limited and often
+  shows a broken image). If you'd rather have the richer graph cards, see the
+  commented block below — deploy your own instance first, then swap the URLs.
+-->
+
 <div align="center">
 
-<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Divnoorheer&show_icons=true&hide_border=true&title_color=fcee0a&icon_color=00f0ff&text_color=dfe4ec&bg_color=0b0d12" alt="GitHub stats" />
-<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Divnoorheer&layout=compact&hide_border=true&title_color=fcee0a&text_color=dfe4ec&bg_color=0b0d12" alt="Top languages" />
+<img src="https://img.shields.io/github/followers/Divnoorheer?style=for-the-badge&logo=github&logoColor=06060a&label=FOLLOWERS&labelColor=fcee0a&color=12151c" alt="Followers" />
+<img src="https://img.shields.io/github/stars/Divnoorheer?style=for-the-badge&logo=github&logoColor=06060a&label=TOTAL_STARS&labelColor=00f0ff&color=12151c" alt="Total stars" />
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FDivnoorheer&query=%24.public_repos&style=for-the-badge&label=PUBLIC_REPOS&labelColor=16d9c4&color=12151c&logoColor=06060a" alt="Public repos" />
 
-<br/>
+<br/><br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=Divnoorheer&hide_border=true&background=0b0d12&stroke=262c38&ring=fcee0a&fire=ff003c&currStreakLabel=00f0ff&sideLabels=7f8798&dates=4d5665&currStreakNum=dfe4ec&sideNums=dfe4ec" alt="Streak" />
+<!-- Language mix, one badge per stack. Manual but 100% reliable. -->
+<img src="https://img.shields.io/badge/TypeScript-2b-00f0ff?style=flat-square&labelColor=12151c" alt="TypeScript usage" />
+<img src="https://img.shields.io/badge/Python-2b-fcee0a?style=flat-square&labelColor=12151c" alt="Python usage" />
+<img src="https://img.shields.io/badge/JavaScript-2b-fcee0a?style=flat-square&labelColor=12151c" alt="JavaScript usage" />
+<img src="https://img.shields.io/badge/C%2FC%2B%2B-2b-16d9c4?style=flat-square&labelColor=12151c" alt="C/C++ usage" />
+<img src="https://img.shields.io/badge/HTML%2FCSS-2b-ff003c?style=flat-square&labelColor=12151c" alt="HTML/CSS usage" />
 
 </div>
+
+<!--
+  ░░ OPTIONAL: richer graph cards ░░
+  Want the animated stats / top-langs / streak cards instead? They look great
+  but the SHARED public services get rate-limited and show broken images.
+  Fix = run your own copy (free), then uncomment and replace YOUR-APP below.
+
+  1. Fork  github.com/anuraghazra/github-readme-stats
+  2. Create a GitHub PAT (classic, no scopes needed for public data)
+  3. Import the fork into Vercel, add env var  PAT_1 = <your token>
+  4. Deploy, then swap  github-readme-stats.vercel.app  ->  YOUR-APP.vercel.app
+
+  <div align="center">
+  <img height="180em" src="https://YOUR-APP.vercel.app/api?username=Divnoorheer&show_icons=true&hide_border=true&title_color=fcee0a&icon_color=00f0ff&text_color=dfe4ec&bg_color=0b0d12" alt="GitHub stats" />
+  <img height="180em" src="https://YOUR-APP.vercel.app/api/top-langs/?username=Divnoorheer&layout=compact&hide_border=true&title_color=fcee0a&text_color=dfe4ec&bg_color=0b0d12" alt="Top languages" />
+  </div>
+-->
 
 ---
 

@@ -68,6 +68,15 @@ STATUS     :: Building the future, one commit at a time
   alt="GitHub streak"
 />
 
+</div>## `> stats --live`
+
+<div align="center">
+
+<img
+  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DivnoorHeer&theme=github_dark"
+  alt="GitHub profile statistics"
+/>
+
 </div>
 
 ---

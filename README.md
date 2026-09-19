@@ -1,58 +1,51 @@
 <!--
   ============================================================
   GITHUB PROFILE README  //  Divnoor Singh
-  Drop this file at the root of a repo named  Divnoorheer
-  (github.com/Divnoorheer/Divnoorheer) and it renders on your
-  profile. Themed after the cyberpunk portfolio: cyber-yellow
-  #fcee0a, cyan #00f0ff, red #ff003c on a near-black void.
+  Drop this whole folder's contents at the root of a repo named
+  Divnoorheer  (github.com/Divnoorheer/Divnoorheer). Keep the
+  assets/ folder next to this README so the SVG banner + divider
+  resolve. GitHub renders inline SVG + SMIL, so the scan sweep,
+  glitch tear and blinking caret animate on your profile.
+
+  Cyberpunk theme carried over from the portfolio:
+    void   #06060a   base   #0b0d12   raised #1a1e27
+    yellow #fcee0a   cyan   #00f0ff   red    #ff003c   teal #16d9c4
   ============================================================
 -->
 
+<!-- ░░ HERO PANEL ░░ notched panel · scanlines · scan sweep · glitch tear ░░ -->
+<div align="center">
+  <a href="https://divnoorsingh.vercel.app">
+    <img src="./assets/banner.svg" alt="Divnoor Singh — Computer Science 2B, University of Waterloo. Reader online, access granted." width="900" />
+  </a>
+</div>
+
 <div align="center">
 
-<!-- ░░ HEADER BANNER ░░ typing readout in the shard-reader voice ░░ -->
-<a href="https://divnoorsingh.vercel.app">
-  <img
-    src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=30&duration=2600&pause=900&color=FCEE0A&center=true&vCenter=true&width=720&height=70&lines=%3E+READER+ONLINE+%2F%2F+awaiting+input;%3E+DECRYPTING+PERSONNEL+RECORD+001;%3E+ACCESS+GRANTED+%2F%2F+welcome"
-    alt="reader online // decrypting personnel record // access granted"
-  />
-</a>
-
-<!-- ░░ DOSSIER STRIP ░░ mirrors the header dossier fields ░░ -->
-<p>
-  <img src="https://img.shields.io/badge/REC-PERSONNEL_%2F_001-fcee0a?style=flat-square&labelColor=06060a&color=12151c" alt="REC / PERSONNEL 001" />
-  <img src="https://img.shields.io/badge/CLASS-COMPUTER_SCIENCE_2B-00f0ff?style=flat-square&labelColor=06060a&color=12151c" alt="Computer Science 2B" />
-  <img src="https://img.shields.io/badge/ORG-UWATERLOO-16d9c4?style=flat-square&labelColor=06060a&color=12151c" alt="UWaterloo" />
-  <img src="https://img.shields.io/badge/STATE-ACTIVE-ff003c?style=flat-square&labelColor=06060a&color=12151c" alt="State active" />
-</p>
-
-# `DIVNOOR SINGH`
-
-**`> Computer Science 2B @ University of Waterloo`**
-`// full-stack builder · cloud + AI · available for internships`
-
-<a href="https://divnoorsingh.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-divnoorsingh.vercel.app-fcee0a?style=for-the-badge&labelColor=06060a" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/divnoor-singh2006"><img src="https://img.shields.io/badge/LINKEDIN-connect-00f0ff?style=for-the-badge&labelColor=06060a" alt="LinkedIn" /></a>
-<a href="mailto:d239sing@uwaterloo.ca"><img src="https://img.shields.io/badge/MAIL-d239sing@uwaterloo.ca-16d9c4?style=for-the-badge&labelColor=06060a" alt="Email" /></a>
+<a href="https://divnoorsingh.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-divnoorsingh.vercel.app-06060a?style=for-the-badge&labelColor=fcee0a" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/divnoor-singh2006"><img src="https://img.shields.io/badge/LINKEDIN-connect-06060a?style=for-the-badge&labelColor=00f0ff" alt="LinkedIn" /></a>
+<a href="mailto:d239sing@uwaterloo.ca"><img src="https://img.shields.io/badge/MAIL-d239sing@uwaterloo.ca-06060a?style=for-the-badge&labelColor=16d9c4" alt="Email" /></a>
 
 </div>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 ```console
-$ whoami --verbose
+$ reader --mount personnel/001 --verbose
 
-  NAME      Divnoor Singh
-  HANDLE    @Divnoorheer
-  CLASS     Honours Bachelor of Computer Science (Candidate)  ·  2024–2029
-  ORG       University of Waterloo  //  President's Scholarship of Distinction
-  STATUS    ▓▓▓▓▓▓▓▓▓▓  AVAILABLE FOR INTERNSHIPS
-  FOCUS     full-stack web · cloud architecture · applied AI / ML
+  ┌─ FRAGMENT 00 · IDENTITY ──────────────────────────────────┐
+    NAME     Divnoor Singh                       @Divnoorheer
+    CLASS    Honours BSc Computer Science (Cand.)   2024–2029
+    ORG      University of Waterloo
+    HONOUR   President's Scholarship of Distinction
+    STATUS   ▓▓▓▓▓▓▓▓▓▓░░░░  AVAILABLE FOR INTERNSHIPS
+    FOCUS    full-stack web · cloud architecture · applied AI
+  └───────────────────────────────────────────────────────────┘
 ```
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-## `> CORE_COMPETENCIES`
+### `> FRAGMENT 01 · CORE_COMPETENCIES`
 
 **`LANGUAGES`**
 
@@ -87,15 +80,15 @@ $ whoami --verbose
 ![DSA](https://img.shields.io/badge/Data_Structures_%26_Algorithms-16d9c4?style=flat-square&labelColor=12151c)
 ![OOP](https://img.shields.io/badge/OOP-fcee0a?style=flat-square&labelColor=12151c)
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-## `> DECRYPTED_FRAGMENTS  //  featured builds`
+### `> FRAGMENT 02 · DECRYPTED_BUILDS`
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### `[ Scribble Notes ]`
+#### `[ Scribble Notes ]`
 `React 19 · TypeScript · WASM`
 
 Offline-first AI study platform with local OCR text
@@ -111,7 +104,7 @@ Ollama and OpenAI-compatible APIs.
 </td>
 <td width="50%" valign="top">
 
-### `[ Dropbin ]`
+#### `[ Dropbin ]`
 `Full-Stack · TypeScript`
 
 Full-stack file sharing and snippet manager on a
@@ -127,7 +120,7 @@ workflows.
 <tr>
 <td width="50%" valign="top">
 
-### `[ AI Regulatory Compliance Analyzer ]`
+#### `[ AI Regulatory Compliance Analyzer ]`
 `Python · Azure OpenAI`
 
 Analyses technical system alignment with the EU AI Act,
@@ -141,7 +134,7 @@ compliance reports and risk assessments.
 </td>
 <td width="50%" valign="top">
 
-### `[ Stock Market Viewer ]`
+#### `[ Stock Market Viewer ]`
 `Python · API`
 
 Command-line app fetching real-time financial data,
@@ -154,45 +147,33 @@ and structured views of key market metrics.
 </tr>
 </table>
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
-## `> TELEMETRY  //  system readout`
+### `> FRAGMENT 03 · TELEMETRY`
 
 <!--
-  These badges are static shields.io endpoints. They render server-side
-  straight from GitHub's own data and effectively never break, unlike the
-  github-readme-stats cards (whose public instance is rate-limited and often
-  shows a broken image). If you'd rather have the richer graph cards, see the
-  commented block below — deploy your own instance first, then swap the URLs.
+  Static shields.io endpoints — they render server-side from GitHub's own data
+  and effectively never break, unlike the github-readme-stats cards (public
+  instance is rate-limited and often shows a broken image). Optional richer
+  cards are in the commented block below; self-host first, then swap the URLs.
 -->
 
 <div align="center">
 
 <img src="https://img.shields.io/github/followers/Divnoorheer?style=for-the-badge&logo=github&logoColor=06060a&label=FOLLOWERS&labelColor=fcee0a&color=12151c" alt="Followers" />
 <img src="https://img.shields.io/github/stars/Divnoorheer?style=for-the-badge&logo=github&logoColor=06060a&label=TOTAL_STARS&labelColor=00f0ff&color=12151c" alt="Total stars" />
-<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FDivnoorheer&query=%24.public_repos&style=for-the-badge&label=PUBLIC_REPOS&labelColor=16d9c4&color=12151c&logoColor=06060a" alt="Public repos" />
-
-<br/><br/>
-
-<!-- Language mix, one badge per stack. Manual but 100% reliable. -->
-<img src="https://img.shields.io/badge/TypeScript-2b-00f0ff?style=flat-square&labelColor=12151c" alt="TypeScript usage" />
-<img src="https://img.shields.io/badge/Python-2b-fcee0a?style=flat-square&labelColor=12151c" alt="Python usage" />
-<img src="https://img.shields.io/badge/JavaScript-2b-fcee0a?style=flat-square&labelColor=12151c" alt="JavaScript usage" />
-<img src="https://img.shields.io/badge/C%2FC%2B%2B-2b-16d9c4?style=flat-square&labelColor=12151c" alt="C/C++ usage" />
-<img src="https://img.shields.io/badge/HTML%2FCSS-2b-ff003c?style=flat-square&labelColor=12151c" alt="HTML/CSS usage" />
+<img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fapi.github.com%2Fusers%2FDivnoorheer&query=%24.public_repos&style=for-the-badge&label=PUBLIC_REPOS&labelColor=16d9c4&color=12151c" alt="Public repos" />
 
 </div>
 
 <!--
   ░░ OPTIONAL: richer graph cards ░░
-  Want the animated stats / top-langs / streak cards instead? They look great
-  but the SHARED public services get rate-limited and show broken images.
-  Fix = run your own copy (free), then uncomment and replace YOUR-APP below.
-
-  1. Fork  github.com/anuraghazra/github-readme-stats
-  2. Create a GitHub PAT (classic, no scopes needed for public data)
-  3. Import the fork into Vercel, add env var  PAT_1 = <your token>
-  4. Deploy, then swap  github-readme-stats.vercel.app  ->  YOUR-APP.vercel.app
+  The shared public services for these get rate-limited and show broken images.
+  Fix = run your own copy (free), then uncomment + replace YOUR-APP below.
+    1. Fork  github.com/anuraghazra/github-readme-stats
+    2. Create a GitHub PAT (classic, no scopes needed for public data)
+    3. Import the fork into Vercel, add env var  PAT_1 = <token>, deploy
+    4. Swap  github-readme-stats.vercel.app  ->  YOUR-APP.vercel.app
 
   <div align="center">
   <img height="180em" src="https://YOUR-APP.vercel.app/api?username=Divnoorheer&show_icons=true&hide_border=true&title_color=fcee0a&icon_color=00f0ff&text_color=dfe4ec&bg_color=0b0d12" alt="GitHub stats" />
@@ -200,12 +181,12 @@ and structured views of key market metrics.
   </div>
 -->
 
----
+<img src="./assets/divider.svg" width="100%" alt="" />
 
 <div align="center">
 
 `REC PERSONNEL/001`&nbsp;·&nbsp;`CLASS CS-2B`&nbsp;·&nbsp;`ORG UWATERLOO`&nbsp;·&nbsp;`STATE ACTIVE`
 
-<sub>`> connection established // homage to the aesthetic, all assets original`</sub>
+<sub>`> connection closed // homage to the aesthetic, all assets original`</sub>
 
 </div>

@@ -1,0 +1,150 @@
+<svg width="900" height="300" viewBox="0 0 900 300" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Divnoor Singh — Computer Science 2B, University of Waterloo. Reader online, access granted.">
+  <title>Divnoor Singh // personnel record 001</title>
+
+  <defs>
+    <!-- Fonts: Share Tech Mono / Rajdhani are not available in the SVG sandbox,
+         so we fall back to a mono/condensed stack that keeps the readout feel. -->
+    <style>
+      .mono  { font-family: 'Share Tech Mono','SFMono-Regular',ui-monospace,Consolas,monospace; }
+      .disp  { font-family: 'Rajdhani','Oswald','Arial Narrow',system-ui,sans-serif; font-weight:700; letter-spacing:2px; }
+      .micro { font-family: 'Share Tech Mono',ui-monospace,monospace; letter-spacing:3px; }
+    </style>
+
+    <!-- Vertical scanline texture, matching the site's ScanlineOverlay. -->
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="4" fill="#0b0d12"/>
+      <rect width="4" height="1" fill="#000000" opacity="0.35"/>
+    </pattern>
+
+    <!-- Corner-notch clip: chamfered top-left + bottom-right, the panel motif.
+         Single closed path so every renderer clips it identically. -->
+    <clipPath id="notch">
+      <path d="M28 8 H880 L892 20 V272 L872 292 H28 L8 280 V20 Z"/>
+    </clipPath>
+
+    <!-- Soft glow for the accent title. -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+
+    <linearGradient id="sweep" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%"  stop-color="#00f0ff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#00f0ff" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#00f0ff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- ── PANEL BODY ─────────────────────────────────────────── -->
+  <g clip-path="url(#notch)">
+    <rect x="8" y="8" width="884" height="284" fill="#06060a"/>
+    <rect x="8" y="8" width="884" height="284" fill="url(#scan)" opacity="0.5"/>
+
+    <!-- faint cyan wash top-left, like the accent panels -->
+    <rect x="8" y="8" width="884" height="284" fill="#00f0ff" opacity="0.03"/>
+
+    <!-- moving scan sweep (SMIL survives GitHub's SVG sanitizer) -->
+    <rect x="8" width="884" height="80" fill="url(#sweep)">
+      <animate attributeName="y" from="-80" to="300" dur="5s" repeatCount="indefinite"/>
+    </rect>
+
+    <!-- glitch tear: appears briefly, matching cyber-glitch keyframes -->
+    <rect x="8" y="150" width="884" height="3" fill="#ff003c">
+      <animate attributeName="opacity"
+        values="0;0;0;1;0.4;0;0" keyTimes="0;0.9;0.93;0.94;0.96;0.97;1"
+        dur="9s" repeatCount="indefinite"/>
+      <animate attributeName="x"
+        values="8;8;8;-6;20;8;8" keyTimes="0;0.9;0.93;0.94;0.96;0.97;1"
+        dur="9s" repeatCount="indefinite"/>
+    </rect>
+  </g>
+
+  <!-- panel chamfer edge (cyan hairline) -->
+  <path d="M28 8 H880 L892 20 V272 L872 292 H28 L8 280 V20 Z"
+        fill="none" stroke="#00f0ff" stroke-opacity="0.5" stroke-width="1.5"/>
+
+  <!-- corner brackets: targeting-reticle motif -->
+  <g stroke="#fcee0a" stroke-width="2" fill="none">
+    <path d="M40 30 H62 M40 30 V52"/>
+    <path d="M860 270 H838 M860 270 V248"/>
+  </g>
+
+  <!-- ── DOSSIER STRIP (top) ────────────────────────────────── -->
+  <g class="micro" fill="#7f8798" font-size="10">
+    <text x="48" y="46">REC // PERSONNEL 001</text>
+    <text x="452" y="46" fill="#16d9c4">CLASS // COMPUTER SCIENCE 2B</text>
+  </g>
+  <g class="micro" font-size="10">
+    <rect x="792" y="36" width="7" height="7" fill="#ff003c">
+      <animate attributeName="opacity" values="1;0.3;1" dur="1.4s" repeatCount="indefinite"/>
+    </rect>
+    <text x="806" y="45" fill="#ff003c">ACTIVE</text>
+  </g>
+  <line x1="48" y1="58" x2="852" y2="58" stroke="#262c38" stroke-width="1"/>
+
+  <!-- ── NAME + TITLE ───────────────────────────────────────── -->
+  <text x="48" y="128" class="disp" font-size="52" fill="#dfe4ec" filter="url(#glow)">DIVNOOR SINGH</text>
+  <text x="50" y="128" class="disp" font-size="52" fill="#fcee0a" opacity="0.25" transform="translate(-2,0)">DIVNOOR SINGH</text>
+
+  <text x="50" y="158" class="mono" font-size="15" fill="#00f0ff">&gt; Computer Science 2B @ University of Waterloo</text>
+  <text x="50" y="180" class="mono" font-size="13" fill="#7f8798">// full-stack builder · cloud + AI · applied ML</text>
+
+  <!-- ── SEGMENTED STATUS BAR ───────────────────────────────── -->
+  <text x="50" y="214" class="micro" font-size="10" fill="#7f8798">STATUS // AVAILABLE FOR INTERNSHIPS</text>
+  <g>
+    <!-- 28 segments, 2px gap, matching SegmentedBar -->
+    <!-- filled (yellow) -->
+    <g fill="#fcee0a">
+      <rect x="50"  y="224" width="14" height="10"/>
+      <rect x="68"  y="224" width="14" height="10"/>
+      <rect x="86"  y="224" width="14" height="10"/>
+      <rect x="104" y="224" width="14" height="10"/>
+      <rect x="122" y="224" width="14" height="10"/>
+      <rect x="140" y="224" width="14" height="10"/>
+      <rect x="158" y="224" width="14" height="10"/>
+      <rect x="176" y="224" width="14" height="10"/>
+      <rect x="194" y="224" width="14" height="10"/>
+      <rect x="212" y="224" width="14" height="10"/>
+      <rect x="230" y="224" width="14" height="10"/>
+      <rect x="248" y="224" width="14" height="10"/>
+      <rect x="266" y="224" width="14" height="10"/>
+      <rect x="284" y="224" width="14" height="10"/>
+      <rect x="302" y="224" width="14" height="10"/>
+      <rect x="320" y="224" width="14" height="10"/>
+      <rect x="338" y="224" width="14" height="10"/>
+      <rect x="356" y="224" width="14" height="10"/>
+      <rect x="374" y="224" width="14" height="10"/>
+      <rect x="392" y="224" width="14" height="10"/>
+      <rect x="410" y="224" width="14" height="10"/>
+      <rect x="428" y="224" width="14" height="10"/>
+      <rect x="446" y="224" width="14" height="10"/>
+      <!-- read head, dimmer -->
+      <rect x="464" y="224" width="14" height="10" opacity="0.75">
+        <animate attributeName="opacity" values="0.75;0.3;0.75" dur="1.8s" repeatCount="indefinite"/>
+      </rect>
+    </g>
+    <!-- empty (raised) -->
+    <g fill="#1a1e27">
+      <rect x="482" y="224" width="14" height="10"/>
+      <rect x="500" y="224" width="14" height="10"/>
+      <rect x="518" y="224" width="14" height="10"/>
+      <rect x="536" y="224" width="14" height="10"/>
+    </g>
+  </g>
+
+  <!-- ── RIGHT TELEMETRY COLUMN ─────────────────────────────── -->
+  <g class="mono" font-size="11" fill="#7f8798">
+    <text x="620" y="90"  text-anchor="start">ORG   <tspan fill="#dfe4ec">UWATERLOO</tspan></text>
+    <text x="620" y="110" text-anchor="start">REC   <tspan fill="#dfe4ec">2024–2029</tspan></text>
+    <text x="620" y="130" text-anchor="start">LAT   <tspan fill="#16d9c4">0.4ms</tspan></text>
+    <text x="620" y="150" text-anchor="start">GEO   <tspan fill="#dfe4ec">43.47N 80.54W</tspan></text>
+  </g>
+
+  <!-- typed access line, blinking caret -->
+  <text x="620" y="214" class="mono" font-size="12" fill="#fcee0a">&gt; ACCESS GRANTED<tspan fill="#fcee0a">_</tspan>
+    <animate attributeName="opacity" values="1;1;0.85;1" dur="2s" repeatCount="indefinite"/>
+  </text>
+  <rect x="742" y="204" width="7" height="12" fill="#fcee0a">
+    <animate attributeName="opacity" values="1;1;0;0" dur="1.06s" repeatCount="indefinite"/>
+  </rect>
+</svg>

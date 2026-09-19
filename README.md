@@ -1,111 +1,180 @@
+<!--
+  ============================================================
+  GITHUB PROFILE README  //  Divnoor Singh
+  Drop this file at the root of a repo named  Divnoorheer
+  (github.com/Divnoorheer/Divnoorheer) and it renders on your
+  profile. Themed after the cyberpunk portfolio: cyber-yellow
+  #fcee0a, cyan #00f0ff, red #ff003c on a near-black void.
+  ============================================================
+-->
+
 <div align="center">
+
+<!-- ░░ HEADER BANNER ░░ typing readout in the shard-reader voice ░░ -->
+<a href="https://divnoorsingh.vercel.app">
+  <img
+    src="https://readme-typing-svg.demolab.com?font=Share+Tech+Mono&size=30&duration=2600&pause=900&color=FCEE0A&center=true&vCenter=true&width=720&height=70&lines=%3E+READER+ONLINE+%2F%2F+awaiting+input;%3E+DECRYPTING+PERSONNEL+RECORD+001;%3E+ACCESS+GRANTED+%2F%2F+welcome"
+    alt="reader online // decrypting personnel record // access granted"
+  />
+</a>
+
+<!-- ░░ DOSSIER STRIP ░░ mirrors the header dossier fields ░░ -->
+<p>
+  <img src="https://img.shields.io/badge/REC-PERSONNEL_%2F_001-fcee0a?style=flat-square&labelColor=06060a&color=12151c" alt="REC / PERSONNEL 001" />
+  <img src="https://img.shields.io/badge/CLASS-COMPUTER_SCIENCE_2B-00f0ff?style=flat-square&labelColor=06060a&color=12151c" alt="Computer Science 2B" />
+  <img src="https://img.shields.io/badge/ORG-UWATERLOO-16d9c4?style=flat-square&labelColor=06060a&color=12151c" alt="UWaterloo" />
+  <img src="https://img.shields.io/badge/STATE-ACTIVE-ff003c?style=flat-square&labelColor=06060a&color=12151c" alt="State active" />
+</p>
 
 # `DIVNOOR SINGH`
 
-### `// COMPUTER SCIENCE • UNIVERSITY OF WATERLOO`
+**`> Computer Science 2B @ University of Waterloo`**
+`// full-stack builder · cloud + AI · available for internships`
 
-![Status](https://img.shields.io/badge/STATUS-ONLINE-39c4b6?style=for-the-badge&labelColor=00060e)
-![Level](https://img.shields.io/badge/LEVEL-2B-54c1e6?style=for-the-badge&labelColor=00060e)
-![Mode](https://img.shields.io/badge/MODE-BUILDING-fee801?style=for-the-badge&labelColor=00060e)
+<a href="https://divnoorsingh.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-divnoorsingh.vercel.app-fcee0a?style=for-the-badge&labelColor=06060a" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/divnoor-singh2006"><img src="https://img.shields.io/badge/LINKEDIN-connect-00f0ff?style=for-the-badge&labelColor=06060a" alt="LinkedIn" /></a>
+<a href="mailto:d239sing@uwaterloo.ca"><img src="https://img.shields.io/badge/MAIL-d239sing@uwaterloo.ca-16d9c4?style=for-the-badge&labelColor=06060a" alt="Email" /></a>
 
 </div>
 
 ---
 
-## `> boot --profile`
+```console
+$ whoami --verbose
 
-```text
-[ SYSTEM INITIALIZED ]
-
-NAME       :: Divnoor Singh
-ROLE       :: Computer Science Student
-LOCATION   :: University of Waterloo
-FOCUS      :: AI Governance / Computer Vision / Cloud Systems
-CERTS      :: Microsoft AZ-900 / Microsoft AI-900
-STATUS     :: Building the future, one commit at a time
+  NAME      Divnoor Singh
+  HANDLE    @Divnoorheer
+  CLASS     Honours Bachelor of Computer Science (Candidate)  ·  2024–2029
+  ORG       University of Waterloo  //  President's Scholarship of Distinction
+  STATUS    ▓▓▓▓▓▓▓▓▓▓  AVAILABLE FOR INTERNSHIPS
+  FOCUS     full-stack web · cloud architecture · applied AI / ML
 ```
 
 ---
 
-## `> load --tech-stack`
+## `> CORE_COMPETENCIES`
+
+**`LANGUAGES`**
+
+![Python](https://img.shields.io/badge/Python-fcee0a?style=flat-square&logo=python&logoColor=06060a&labelColor=12151c)
+![TypeScript](https://img.shields.io/badge/TypeScript-00f0ff?style=flat-square&logo=typescript&logoColor=06060a&labelColor=12151c)
+![JavaScript](https://img.shields.io/badge/JavaScript-fcee0a?style=flat-square&logo=javascript&logoColor=06060a&labelColor=12151c)
+![C++](https://img.shields.io/badge/C++-00f0ff?style=flat-square&logo=cplusplus&logoColor=06060a&labelColor=12151c)
+![C](https://img.shields.io/badge/C-16d9c4?style=flat-square&logo=c&logoColor=06060a&labelColor=12151c)
+![Racket](https://img.shields.io/badge/Racket-ff003c?style=flat-square&logo=racket&logoColor=ffffff&labelColor=12151c)
+![HTML5](https://img.shields.io/badge/HTML5-fcee0a?style=flat-square&logo=html5&logoColor=06060a&labelColor=12151c)
+![CSS3](https://img.shields.io/badge/CSS3-00f0ff?style=flat-square&logo=css3&logoColor=06060a&labelColor=12151c)
+
+**`FRAMEWORKS & RUNTIME`**
+
+![React](https://img.shields.io/badge/React-00f0ff?style=flat-square&logo=react&logoColor=06060a&labelColor=12151c)
+![Node.js](https://img.shields.io/badge/Node.js-16d9c4?style=flat-square&logo=nodedotjs&logoColor=06060a&labelColor=12151c)
+![Express](https://img.shields.io/badge/Express-fcee0a?style=flat-square&logo=express&logoColor=06060a&labelColor=12151c)
+![WebAssembly](https://img.shields.io/badge/WebAssembly-ff003c?style=flat-square&logo=webassembly&logoColor=ffffff&labelColor=12151c)
+
+**`CLOUD & AI`**
+
+![Azure](https://img.shields.io/badge/Microsoft_Azure-00f0ff?style=flat-square&logo=microsoftazure&logoColor=06060a&labelColor=12151c)
+![Azure OpenAI](https://img.shields.io/badge/Azure_OpenAI-fcee0a?style=flat-square&logo=openai&logoColor=06060a&labelColor=12151c)
+![AZ-900](https://img.shields.io/badge/AZ--900-certified-16d9c4?style=flat-square&labelColor=12151c)
+![AI-900](https://img.shields.io/badge/AI--900-certified-16d9c4?style=flat-square&labelColor=12151c)
+
+**`TOOLS & CONCEPTS`**
+
+![Git](https://img.shields.io/badge/Git-ff003c?style=flat-square&logo=git&logoColor=ffffff&labelColor=12151c)
+![GitHub](https://img.shields.io/badge/GitHub-fcee0a?style=flat-square&logo=github&logoColor=06060a&labelColor=12151c)
+![IndexedDB](https://img.shields.io/badge/IndexedDB-00f0ff?style=flat-square&labelColor=12151c)
+![DSA](https://img.shields.io/badge/Data_Structures_%26_Algorithms-16d9c4?style=flat-square&labelColor=12151c)
+![OOP](https://img.shields.io/badge/OOP-fcee0a?style=flat-square&labelColor=12151c)
+
+---
+
+## `> DECRYPTED_FRAGMENTS  //  featured builds`
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### `[ Scribble Notes ]`
+`React 19 · TypeScript · WASM`
+
+Offline-first AI study platform with local OCR text
+extraction, PDF annotation and spaced-repetition
+flashcards. A local analysis engine does deterministic
+subject-gating for confidence-scored sorting, quizzes
+and study analytics — no external server. Optional
+Express layer syncs state and supports local LLMs via
+Ollama and OpenAI-compatible APIs.
+
+<a href="https://github.com/Divnoorheer/Scribble-Notes"><img src="https://img.shields.io/badge/OPEN_REPO-00f0ff?style=flat-square&logo=github&logoColor=06060a&labelColor=06060a" alt="repo" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### `[ Dropbin ]`
+`Full-Stack · TypeScript`
+
+Full-stack file sharing and snippet manager on a
+client-server architecture, with secure data handling,
+clean routing and responsive UI. Storage and retrieval
+are tuned for fast interactions and quick sharing
+workflows.
+
+<a href="https://github.com/Divnoorheer/Dropbin"><img src="https://img.shields.io/badge/OPEN_REPO-fcee0a?style=flat-square&logo=github&logoColor=06060a&labelColor=06060a" alt="repo" /></a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### `[ AI Regulatory Compliance Analyzer ]`
+`Python · Azure OpenAI`
+
+Analyses technical system alignment with the EU AI Act,
+GDPR, ISO standards and Law 25. Automated rule-checking
+and structured document parsing for algorithmic
+transparency and data-privacy requirements. Produces
+compliance reports and risk assessments.
+
+<a href="https://github.com/Divnoorheer/Compliance_analyzer"><img src="https://img.shields.io/badge/OPEN_REPO-16d9c4?style=flat-square&logo=github&logoColor=06060a&labelColor=06060a" alt="repo" /></a>
+
+</td>
+<td width="50%" valign="top">
+
+### `[ Stock Market Viewer ]`
+`Python · API`
+
+Command-line app fetching real-time financial data,
+with secure API key management, robust error handling
+and structured views of key market metrics.
+
+<a href="https://github.com/Divnoorheer/stock_viewer"><img src="https://img.shields.io/badge/OPEN_REPO-ff003c?style=flat-square&logo=github&logoColor=ffffff&labelColor=06060a" alt="repo" /></a>
+
+</td>
+</tr>
+</table>
+
+---
+
+## `> TELEMETRY  //  system readout`
 
 <div align="center">
 
-![TypeScript](https://img.shields.io/badge/TypeScript-00060e?style=for-the-badge&logo=typescript&logoColor=54c1e6)
-![Python](https://img.shields.io/badge/Python-00060e?style=for-the-badge&logo=python&logoColor=fee801)
-![C++](https://img.shields.io/badge/C++-00060e?style=for-the-badge&logo=cplusplus&logoColor=39c4b6)
-![React](https://img.shields.io/badge/React-00060e?style=for-the-badge&logo=react&logoColor=54c1e6)
-![Azure](https://img.shields.io/badge/Azure-00060e?style=for-the-badge&logo=microsoftazure&logoColor=9a9f17)
-![Git](https://img.shields.io/badge/Git-00060e?style=for-the-badge&logo=git&logoColor=fee801)
+<img height="180em" src="https://github-readme-stats.vercel.app/api?username=Divnoorheer&show_icons=true&hide_border=true&title_color=fcee0a&icon_color=00f0ff&text_color=dfe4ec&bg_color=0b0d12" alt="GitHub stats" />
+<img height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Divnoorheer&layout=compact&hide_border=true&title_color=fcee0a&text_color=dfe4ec&bg_color=0b0d12" alt="Top languages" />
+
+<br/>
+
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Divnoorheer&hide_border=true&background=0b0d12&stroke=262c38&ring=fcee0a&fire=ff003c&currStreakLabel=00f0ff&sideLabels=7f8798&dates=4d5665&currStreakNum=dfe4ec&sideNums=dfe4ec" alt="Streak" />
 
 </div>
 
 ---
 
-## `> execute --current-missions`
-
-- Building practical software with TypeScript, Python, and C++
-- Exploring responsible AI and AI governance
-- Developing computer vision systems
-- Designing scalable cloud infrastructure
-- Learning through projects, experiments, and open source
-
----
-
-## `> stats --live`
-
 <div align="center">
 
-<img
-  height="180"
-  src="https://github-readme-stats.vercel.app/api?username=DivnoorHeer&show_icons=true&hide_border=true&theme=dark&bg_color=00060e&title_color=54c1e6&icon_color=fee801&text_color=c9d1d9&cache_seconds=1800"
-  alt="GitHub statistics"
-/>
+`REC PERSONNEL/001`&nbsp;·&nbsp;`CLASS CS-2B`&nbsp;·&nbsp;`ORG UWATERLOO`&nbsp;·&nbsp;`STATE ACTIVE`
 
-<img
-  height="180"
-  src="https://streak-stats.demolab.com?user=DivnoorHeer&theme=dark&hide_border=true&background=00060E&ring=39C4B6&fire=FEE801&currStreakNum=54C1E6&currStreakLabel=54C1E6&sideNums=C9D1D9&sideLabels=9A9F17&dates=6B7280"
-  alt="GitHub streak"
-/>
-
-</div>## `> stats --live`
-
-<div align="center">
-
-<img
-  src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=DivnoorHeer&theme=github_dark"
-  alt="GitHub profile statistics"
-/>
-
-</div>
-
----
-
-## `> monitor --activity`
-
-<div align="center">
-
-<img src="https://ghchart.rshah.org/54c1e6/DivnoorHeer" alt="Contribution graph" width="100%" />
-
-</div>
-
----
-
-## `> establish --connection`
-
-<div align="center">
-
-[![GitHub](https://img.shields.io/badge/Git-DivnoorHeer-00060e?style=for-the-badge&logo=github&logoColor=fee801)](https://github.com/DivnoorHeer)
-
-</div>
-
----
-
-<div align="center">
-
-```text
-[ CONNECTION TERMINATED ]
-[ KEEP BUILDING ]
-```
+<sub>`> connection established // homage to the aesthetic, all assets original`</sub>
 
 </div>

@@ -56,9 +56,17 @@ STATUS     :: Building the future, one commit at a time
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=DivnoorHeer&show_icons=true&hide_border=true&bg_color=00060e&title_color=54c1e6&icon_color=fee801&text_color=c9d1d9&ring_color=39c4b6&count_private=true" alt="GitHub statistics" />
+<img
+  height="180"
+  src="https://github-readme-stats.vercel.app/api?username=DivnoorHeer&show_icons=true&hide_border=true&theme=dark&bg_color=00060e&title_color=54c1e6&icon_color=fee801&text_color=c9d1d9&cache_seconds=1800"
+  alt="GitHub statistics"
+/>
 
-<img height="180" src="https://streak-stats.demolab.com?user=DivnoorHeer&hide_border=true&background=00060E&ring=39C4B6&fire=FEE801&currStreakNum=54C1E6&currStreakLabel=54C1E6&sideNums=C9D1D9&sideLabels=9A9F17&dates=6B7280" alt="GitHub streak" />
+<img
+  height="180"
+  src="https://streak-stats.demolab.com?user=DivnoorHeer&theme=dark&hide_border=true&background=00060E&ring=39C4B6&fire=FEE801&currStreakNum=54C1E6&currStreakLabel=54C1E6&sideNums=C9D1D9&sideLabels=9A9F17&dates=6B7280"
+  alt="GitHub streak"
+/>
 
 </div>
 
